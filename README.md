@@ -28,27 +28,27 @@ O Front-End foi desenvolvido para oferecer uma interface administrativa intuitiv
 - **Google Fonts — IBM Plex Sans** — tipografia da interface.
 - **Git e GitHub** — versionamento e hospedagem do código-fonte.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-### 📊 Visão geral
+###  Visão geral
 - Indicadores resumidos das análises e detecções.
 - Visualização de gráficos e distribuição por classe.
 - Listagem de análises recentes.
 
-### 🔎 Análises
+###  Análises
 - Consulta das análises registradas.
 - Pesquisa por vídeo, identificação ou localização.
 - Filtros por status e localização.
 - Paginação dos resultados.
 
-### 🎥 Envio de vídeos
+### Envio de vídeos
 - Seleção de arquivos e suporte a arrastar e soltar.
 - Validação de formato, tamanho e duração.
 - Informações sobre a localização do vídeo.
 - Acompanhamento do progresso real do envio.
 - Acesso aos detalhes da análise após o envio, conforme a resposta da API.
 
-### 🚧 Detalhes e revisão
+###  Detalhes e revisão
 - Visualização dos metadados da análise.
 - Exibição das detecções e dos respectivos níveis de confiança.
 - Reprodução do vídeo, quando disponível.
@@ -56,19 +56,19 @@ O Front-End foi desenvolvido para oferecer uma interface administrativa intuitiv
 - Recursos para confirmar, rejeitar ou corrigir detecções, conforme suporte do back-end.
 - Consulta de ocorrências e prioridades.
 
-### 📑 Relatórios
+###  Relatórios
 - Consulta de indicadores e resultados agregados.
 - Filtros para consulta dos dados.
 - Exportação de informações em formato CSV.
 
-### ⚙️ Configurações
+### Configurações
 - Preferências de paginação.
 - Configuração de classes utilizadas pela interface.
 - Verificação do estado de conexão com a API.
 
 > **Observação:** a disponibilidade efetiva de cada funcionalidade depende da implementação correspondente e da integração com o back-end.
 
-## 📁 Estrutura do projeto
+##  Estrutura do projeto
 
 ```text
 frontend_monitoramento_vias/
@@ -87,7 +87,7 @@ frontend_monitoramento_vias/
 - `js/app.js`: navegação, renderização das páginas e interações.
 - `README.md`: documentação do projeto.
 
-## 🚀 Como executar
+##  Como executar
 
 ### Pré-requisitos
 
@@ -120,7 +120,7 @@ Abra o arquivo `index.html` com a extensão **Live Server** no Visual Studio Cod
 
 A interface poderá ser acessada pelo endereço local fornecido pela extensão.
 
-## 🔌 Integração com o back-end
+##  Integração com o back-end
 
 A comunicação com a API está centralizada em `js/api.js`.
 
@@ -136,11 +136,11 @@ Os endpoints e formatos de resposta devem corresponder à implementação real d
 
 **Importante:** ao publicar a interface na internet, configure a URL de uma API acessível externamente e as permissões necessárias de CORS. O endereço `localhost` representa a própria máquina de quem está acessando a aplicação.
 
-## 👥 Desenvolvimento
+##  Desenvolvimento
 
 Este repositório concentra o código-fonte do **Front-End** do sistema.
 
-## 🎓 Contexto acadêmico
+## Contexto acadêmico
 
 **Projeto Integrador — UTFPR**
 
